@@ -1,0 +1,138 @@
+body{
+  font-weight: bold;
+   font-family: Trebuchet MS;
+  color: black;
+  background-color: #D0B8A8
+
+}
+#Arun{
+  width:200px;
+  height: 200px;
+}
+
+#Noah{
+  width: 200px;
+  height: 200px;
+}
+
+#Keteaonk{
+  width: 200px;
+  height: 200px;
+}
+
+#zuriel{
+  width: 200px;
+  height: 200px;
+}
+
+#Team{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  font-size: 17px;
+  background-color: #8D493A;
+  padding: 5px;
+  border: 10px solid #8D493A;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  text-decoration: none;
+  transition: background-position .5s ease-in-out;
+  border-radius: 10px;
+}
+
+nav .items {
+  color: #382114;
+  background: linear-gradient(to right, #8D493A 50%, #975217 50%);
+  background-size: 200% 100%;
+}
+
+nav a:hover .items {
+  background-position: -100% 0;
+}
+
+
+a {
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+  font-weight: bolder ;
+  color: #382114;
+}
+
+.Names{
+  color: brown;
+}
+
+h1{
+  font-family: Courier New;
+
+}
+
+.student{
+  display: flex;
+  border: 7px solid #D0B8A8;
+}
+
+.p-h2{
+  justify-content: row;
+  border: 7px solid #D0B8A8;
+  width:45%;
+}
+
+.link{
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+
+#git{
+ width: 50px;
+height: 50px;
+  display:flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+
+
+#linkedIn{
+  width:57px;
+  height:57px;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+button{
+  font-family: Trebuchet MS;
+  display:flex;
+  align-content: center;
+  background-color: #eaac8b;
+  cursor:pointer;
+  position:absolute;
+  top : 210px;
+  padding:20px;
+}
+
+#team{
+  width:550px;
+  height:300px;
+
+}
+
+#new{
+  display:flex;
+  justify-content: center;
+}
+
+
+
